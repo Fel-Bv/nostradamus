@@ -1,18 +1,7 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-
 /* Animaciones */
-@keyframes slidein {
-  from {
-    margin-right: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-} 
+@import url("./animaciones.css");
 
 /* Estilos Base */
 * {
@@ -78,6 +67,29 @@ main {
   top: 10%;
   right: 0;
   left: 0;
+}
+
+main > footer {
+  height: auto;
+  width: 100%;
+}
+
+main > footer .botones {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  margin: 2em 0;
+  gap: 1em;
+}
+
+main > footer .botones a {
+  background-color: #a0a0a0;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: .3em .5em;
+  cursor: pointer;
+  margin: 0;
 }
 
 header{

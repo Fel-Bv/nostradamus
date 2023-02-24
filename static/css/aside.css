@@ -1,15 +1,46 @@
+/* Animaciones */
+@import url("./animaciones.css");
+
+/* Estilos base de la barra de navegación */
 aside {
-  background-color: #555;
-  z-index: 2;
+  background-color: #5f9ea0;
+  animation-duration: 3s;
+  animation-name:slidein ;
   position: absolute;
   height: 90%;
-  width: 15%;
+  width: 18%;
+  z-index: 2;
   top: 10%;
   left: 0;
 }
 
+.lista-navegador {
+  list-style: none;
+  padding: 2em 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.elemento-navegador {
+  background-color: #6faeb0;
+  margin-bottom: .5em;
+  overflow-x: hidden;
+  padding: .6em 1em;
+  cursor: pointer;
+  width: 100%;
+}
+.elemento-navegador:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.elemento-navegador > a {
+  text-decoration: none;
+  font-weight: 800;
+}
+
 main {
-  height: 85%;
+  height: 80%;
   width: 60%;
   bottom: 0;
   left: 15%;

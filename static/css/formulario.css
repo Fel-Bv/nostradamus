@@ -1,12 +1,10 @@
-.formularios{
+ul{
     text-align: center;
     border-radius: 20px;
+    list-style: none;
 }
 input{
     border-radius: 30px;
     border: solid #5f9ea0;
-}
-ul{
-    list-style: none;
 }
 /** background: cadetblue;/**
