@@ -1,0 +1,18 @@
+aside {
+  background-color: #555;
+  z-index: 2;
+  position: absolute;
+  height: 90%;
+  width: 15%;
+  top: 10%;
+  left: 0;
+}
+
+main {
+  height: 85%;
+  width: 60%;
+  bottom: 0;
+  left: 15%;
+  right: 0;
+  top: 10%;
+}
