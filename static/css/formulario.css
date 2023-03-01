@@ -4,7 +4,23 @@ ul{
     list-style: none;
 }
 input{
+    background-color: black;
+    width: 150px;
+    height: 27px;
     border-radius: 30px;
     border: solid #5f9ea0;
 }
+option{
+    background-color: black;
+    border-radius: 5px;
+    border: #5f9ea0 solid;
+    color: #ffff;
+}
+select{
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    border: #5f9ea0 solid;
+}
+
 /** background: cadetblue;/**

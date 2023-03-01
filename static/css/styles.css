@@ -92,6 +92,10 @@ main > footer .botones a {
   margin: 0;
 }
 
+main > footer .botones a.deshabilitado {
+  visibility: hidden;
+}
+
 header{
   justify-content: center;
   flex-direction: row;
