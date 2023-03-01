@@ -1,7 +1,7 @@
 /* Animaciones */
 @import url("./animaciones.css");
 
-/* Estilos base de la barra de navegación */
+/* Estilos base de la barra lateral izquierda de navegación */
 aside {
   background-color: #5f9ea0;
   animation-duration: 3s;
@@ -34,9 +34,15 @@ aside {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.elemento-navegador.actual {
+  background-color: #5f9ea0;
+  cursor: auto;
+}
+
 .elemento-navegador > a {
   text-decoration: none;
   font-weight: 800;
+  cursor: inherit;
 }
 
 main {

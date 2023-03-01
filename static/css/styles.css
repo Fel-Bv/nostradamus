@@ -40,8 +40,7 @@ body {
 
 #video-fondo {
   position: absolute;
-  margin: auto;
-  width: 100%;
+  height: 100%;
   padding: 0;
   bottom: 0;
   right: 0;
@@ -83,7 +82,7 @@ main > footer .botones {
   gap: 1em;
 }
 
-main > footer .botones a {
+.boton-secundario {
   background-color: #a0a0a0;
   text-decoration: none;
   border-radius: 2px;
@@ -92,7 +91,7 @@ main > footer .botones a {
   margin: 0;
 }
 
-main > footer .botones a.deshabilitado {
+.boton-secundario.deshabilitado {
   visibility: hidden;
 }
 
@@ -126,6 +125,7 @@ h1{
 button {
   background-color: #5f9ea0;
   border-radius: 3px;
+  font-weight: 500;
   padding: 0 10px;
   cursor: pointer;
   color: white;
