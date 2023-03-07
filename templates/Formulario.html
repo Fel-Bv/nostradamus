@@ -10,10 +10,11 @@
   <link rel="stylesheet" href="static/css/styles.css">
   <link rel="stylesheet" href="static/css/formulario.css">
   <link rel="stylesheet" href="static/css/aside.css">
+  <script src="static/js/formulario.js" defer></script>
 </head>
 <body>
   <header>
-    <a href="https://fel-bv.github.io/nostradamus/" class="link-indice">ÍNDICE</a>
+    <a href="../" class="link-indice">ÍNDICE</a>
     <h1>Nostradamus's Project</h1>
   </header>
 
@@ -51,31 +52,33 @@
 
       <form>
         <ul class="lista-formulario">
-         <li class="formularios">
-           <label for="name">Nombre:</label>
-           <input type="text" id="name" name="user_name"placeholder="coloca tu nombre">
-         </li>
-         <li class="formularios">
-           <label for="email">Gmail:</label>
-           <input type="search" id="search" name="email" placeholder="coloca tu e-mail">
-         </li>
-         <li>
-          <label for="sexo">Sexo</label>
-          <select name="sexo">
-            <option>por favor</option>
-            <option>no gracias</option>
-            <option>masculino</option>
-            <option>femenino</option>
-          </select>
-        </li>
-        <li>
-          <label for="edad">Edad</label>
-          <input type="range">
-        </li>
+          <li>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="coloca tu nombre">
+          </li>
+          <li>
+            <label for="mail">Gmail:</label>
+            <input type="text" name="mail" id="mail" placeholder="coloca tu e-mail">
+          </li>
+          <li>
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo">
+              <option>masculino</option>
+              <option>femenino</option>
+            </select>
+          </li>
+          <li>
+            <label for="edad">Edad</label>
+            <input type="range" name="edad" id="edad">
+          </li>
         </ul>
+
         <button type="reset" id="reiniciar-formulario">Reiniciar Formulario</button>
-        <button type="button"label>Enviar</button>
-       </form>
+        <button type="submit" id="enviar-formulario">Enviar</button>
+      </form>
+
+      <p id="datos">
+      </p>
     </main>
   </section>
 </body>
